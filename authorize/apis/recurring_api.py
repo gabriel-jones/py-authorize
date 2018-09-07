@@ -170,5 +170,5 @@ class RecurringAPI(BaseAPI):
 
         if 'shipping' in params:
             subscription.append(create_address('shipTo', params['shipping']))
-
+        print(request)
         return request
